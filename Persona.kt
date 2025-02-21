@@ -84,5 +84,8 @@ fun main() {
     println(empleado.toString())
     println(empleado.trabajar())
 
-
+    println("\n***INFORMACIÓN GERENTE***")
+    val gerenteExento = Gerente("Luis", 45, 6000.0, 2000.0, true)
+    println(gerenteExento.toString())
+    println(gerenteExento.administrar())
 }
